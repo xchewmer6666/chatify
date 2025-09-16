@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/xchewmer6666/chatify/issues"
   },
-  "homepage": "https://github.com/xchewmer6666/chatify#readme"
+  "homepage": "https://github.com/xchewmer6666/chatify#readme",
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "4.6.1"
+  }
 }
