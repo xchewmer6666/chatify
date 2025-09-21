@@ -124,7 +124,7 @@ export const updateProfile = async (req, res) => {
 
     const updatedUser = await User.findByIdAndUpdate(
       userId,
-      { profilePic: uoloadResponse.secure_url },
+      { profilePic: uploadResponse.secure_url },
       { new: true }
     );
 
